@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    // Add smooth scrolling to all links
+    // Agregar smooth scrolling a todos los links
     $("a")("aside").on('click', function(event) {
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
-        // Prevent default anchor click behavior
+        // Evitar el comportamiento de clic de anclaje 
         event.preventDefault();
         // Store hash
         var hash = this.hash;
