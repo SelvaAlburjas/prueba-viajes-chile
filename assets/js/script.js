@@ -5,7 +5,7 @@ $(document).ready(function(){
       if (this.hash !== "") {
         // Evitar el comportamiento de clic de anclaje 
         event.preventDefault();
-        // Store hash
+        // Almacenar
         var hash = this.hash;
         $('html, body').animate({
           scrollTop: $(hash).offset().top
